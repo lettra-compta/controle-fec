@@ -1,0 +1,45 @@
+JournalCode	JournalLib	EcritureNum	EcritureDate	CompteNum	CompteLib	CompAuxNum	CompAuxLib	PieceRef	PieceDate	EcritureLib	Debit	Credit	EcritureLet	DateLet	ValidDate	Montantdevise	Idevise
+VE	Ventes	VE000001	20250115	411000	Clients	C001	Client Alpha	F001	20250115	Facture client F001	1200,00	0,00			20250120		
+VE	Ventes	VE000001	20250115	706000	Prestations de services			F001	20250115	Facture client F001	0,00	1000,00			20250120		
+VE	Ventes	VE000001	20250115	445710	TVA collectée			F001	20250115	Facture client F001	0,00	200,00			20250120		
+VE	Ventes	VE000002	20250315	411000	Clients	C001	Client Alpha	F002	20250315	Facture client F002	2400,00	0,00			20250320		
+VE	Ventes	VE000002	20250315	706000	Prestations de services			F002	20250315	Facture client F002	0,00	2000,00			20250320		
+VE	Ventes	VE000002	20250315	445710	TVA collectée			F002	20250315	Facture client F002	0,00	400,00			20250320		
+VE	Ventes	VE000003	20250515	411000	Clients	C001	Client Alpha	F003	20250515	Facture client F003	3600,00	0,00			20250520		
+VE	Ventes	VE000003	20250515	706000	Prestations de services			F003	20250515	Facture client F003	0,00	3000,00			20250520		
+VE	Ventes	VE000003	20250515	445710	TVA collectée			F003	20250515	Facture client F003	0,00	600,00			20250520		
+VE	Ventes	VE000004	20250715	411000	Clients	C001	Client Alpha	F004	20250715	Facture client F004	4800,00	0,00			20250720		
+VE	Ventes	VE000004	20250715	706000	Prestations de services			F004	20250715	Facture client F004	0,00	4000,00			20250720		
+VE	Ventes	VE000004	20250715	445710	TVA collectée			F004	20250715	Facture client F004	0,00	800,00			20250720		
+VE	Ventes	VE000005	20250915	411000	Clients	C001	Client Alpha	F005	20250915	Facture client F005	6000,00	0,00			20250920		
+VE	Ventes	VE000005	20250915	706000	Prestations de services			F005	20250915	Facture client F005	0,00	5000,00			20250920		
+VE	Ventes	VE000005	20250915	445710	TVA collectée			F005	20250915	Facture client F005	0,00	1000,00			20250920		
+VE	Ventes	VE000006	20251115	411000	Clients	C001	Client Alpha	F006	20251115	Facture client F006	7200,00	0,00			20251120		
+VE	Ventes	VE000006	20251115	706000	Prestations de services			F006	20251115	Facture client F006	0,00	6000,00			20251120		
+VE	Ventes	VE000006	20251115	445710	TVA collectée			F006	20251115	Facture client F006	0,00	1200,00			20251120		
+AC	Achats	AC000001	20250310	607000	Achats de marchandises			A001	20250310	Facture fournisseur A001	400,00	0,00			20250312		
+AC	Achats	AC000001	20250310	445660	TVA déductible sur ABS			A001	20250310	Facture fournisseur A001	80,00	0,00			20250312		
+AC	Achats	AC000001	20250310	401000	Fournisseurs	F001	Fournisseur Beta	A001	20250310	Facture fournisseur A001	0,00	480,00			20250312		
+AC	Achats	AC000002	20250610	607000	Achats de marchandises			A002	20250610	Facture fournisseur A002	800,00	0,00			20250612		
+AC	Achats	AC000002	20250610	445660	TVA déductible sur ABS			A002	20250610	Facture fournisseur A002	160,00	0,00			20250612		
+AC	Achats	AC000002	20250610	401000	Fournisseurs	F001	Fournisseur Beta	A002	20250610	Facture fournisseur A002	0,00	960,00			20250612		
+AC	Achats	AC000003	20250910	607000	Achats de marchandises			A003	20250910	Facture fournisseur A003	1200,00	0,00			20250912		
+AC	Achats	AC000003	20250910	445660	TVA déductible sur ABS			A003	20250910	Facture fournisseur A003	240,00	0,00			20250912		
+AC	Achats	AC000003	20250910	401000	Fournisseurs	F001	Fournisseur Beta	A003	20250910	Facture fournisseur A003	0,00	1440,00			20250912		
+AC	Achats	AC000004	20251210	607000	Achats de marchandises			A004	20251210	Facture fournisseur A004	1600,00	0,00			20251212		
+AC	Achats	AC000004	20251210	445660	TVA déductible sur ABS			A004	20251210	Facture fournisseur A004	320,00	0,00			20251212		
+AC	Achats	AC000004	20251210	401000	Fournisseurs	F001	Fournisseur Beta	A004	20251210	Facture fournisseur A004	0,00	1920,00			20251212		
+BQ	Banque	BQ000001	20250325	512000	Banque			R001	20250325	Encaissement client 1	1200,00	0,00			20250328		
+BQ	Banque	BQ000001	20250325	411000	Clients	C001	Client Alpha	R001	20250325	Encaissement client 1	0,00	1200,00			20250328		
+BQ	Banque	BQ000002	20250625	512000	Banque			R002	20250625	Encaissement client 2	2400,00	0,00			20250628		
+BQ	Banque	BQ000002	20250625	411000	Clients	C001	Client Alpha	R002	20250625	Encaissement client 2	0,00	2400,00			20250628		
+BQ	Banque	BQ000003	20250925	512000	Banque			R003	20250925	Encaissement client 3	3600,00	0,00			20250928		
+BQ	Banque	BQ000003	20250925	411000	Clients	C001	Client Alpha	R003	20250925	Encaissement client 3	0,00	3600,00			20250928		
+BQ	Banque	BQ000004	20251225	512000	Banque			R004	20251225	Encaissement client 4	4800,00	0,00			20251228		
+BQ	Banque	BQ000004	20251225	411000	Clients	C001	Client Alpha	R004	20251225	Encaissement client 4	0,00	4800,00			20251228		
+OD	Opérations diverses	OD000001	20250428	641000	Rémunérations du personnel			P001	20250428	Salaires mois 4	2500,00	0,00			20250430		
+OD	Opérations diverses	OD000001	20250428	421000	Personnel - rémunérations dues			P001	20250428	Salaires mois 4	0,00	2500,00			20250430		
+OD	Opérations diverses	OD000002	20250828	641000	Rémunérations du personnel			P002	20250828	Salaires mois 8	2500,00	0,00			20250830		
+OD	Opérations diverses	OD000002	20250828	421000	Personnel - rémunérations dues			P002	20250828	Salaires mois 8	0,00	2500,00			20250830		
+OD	Opérations diverses	OD000003	20251228	641000	Rémunérations du personnel			P003	20251228	Salaires mois 12	2500,00	0,00			20251230		
+OD	Opérations diverses	OD000003	20251228	421000	Personnel - rémunérations dues			P003	20251228	Salaires mois 12	0,00	2500,00			20251230		
