@@ -1,0 +1,16 @@
+{
+  "name": "controle-fec",
+  "displayName": "Contrôle FEC (Lettra)",
+  "version": "1.0.0",
+  "description": "Contrôle de conformité de format d'un FEC (Fichier des Écritures Comptables, article A47 A-1 du LPF) : 18 colonnes, dates, montants, équilibre, chronologie, numérotation, classes PCG. Rapport Markdown avec score.",
+  "author": {
+    "name": "Lettra",
+    "email": "lettra.contact@proton.me",
+    "url": "https://lettra-compta.github.io/"
+  },
+  "homepage": "https://github.com/lettra-compta/controle-fec",
+  "repository": "https://github.com/lettra-compta/controle-fec",
+  "license": "MIT",
+  "keywords": ["fec", "comptabilite", "fichier-des-ecritures-comptables", "dgfip", "audit-comptable", "expertise-comptable", "france", "accounting", "tax-compliance"],
+  "skills": ["./"]
+}
